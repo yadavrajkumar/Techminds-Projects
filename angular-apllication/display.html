@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div>
+    <h4>Organizatio Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th>
+					<th>WEBSITE</th><th>LOCATION</th>
+                </tr>
+                <tr>
+                <td>{{organizationId}}</td><td>{{organizationName}}</td>
+                <td>{{site}}</td><td>{{orgAddress}}</td>
+                </tr>
+
+			</table>
+    </div>
+		<div>
+		<h4>Customer Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th>
+                </tr>
+                <tr>
+                <td>{{custId}}</td><td>{{custName}}</td>
+                </tr>
+
+			</table>
+
+		</div>
+		
+
+		<div>
+
+		<h4>Product Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th><th>Prize</th>
+                </tr>
+                <tr>
+                <td>{{productData.productId}}</td>
+                
+                
+                <td>{{productData.productName}}</td>
+                  
+                <td>{{productData.prize}}</td>
+                
+                </tr>
+
+			</table>
+
+		</div> 
+		
+</body>
+</html>

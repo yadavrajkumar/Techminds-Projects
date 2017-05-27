@@ -1,0 +1,111 @@
+	<!DOCTYPE html>
+<html ng-app = "employee_Module">
+	<head>
+		
+		<title>Angular app</title>
+
+	</head>
+	
+	<body>
+
+		<h1>Angular Application</h1>
+		
+		<div ng-controller="employee_Controller">
+
+		<div>
+			<directive-app>
+				
+			</directive-app> 
+			
+<input type="text" ng-model="letter">
+		</div>
+
+    
+    
+    <div ng-repeat="name in names | startsWithLetter : letter">
+    
+    {{name}}
+
+</div> 
+
+
+    <!--<div>
+     <br>
+    <h4>Organizatio Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th>
+					<th>WEBSITE</th><th>LOCATION</th>
+                </tr>
+                <tr>
+                <td>{{organizationId}}</td><td>{{organizationName}}</td>
+                <td>{{site}}</td><td>{{orgAddress}}</td>
+                </tr>
+
+			</table>
+    </div>
+		<div>
+		<h4>Customer Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th>
+                </tr>
+                <tr>
+                <td>{{custId}}</td><td>{{custName}}</td>
+                </tr>
+
+			</table>
+
+		</div>
+		
+
+		<div>
+
+		<h4>Product Details</h4>
+			<table width="400" border="1">
+				<tr>
+					<th>ID</th><th>NAME</th><th>Prize</th>
+                </tr>
+                <tr>
+                <td>{{productData.productId}}</td>
+                
+                
+                <td>{{productData.productName}}</td>
+                  
+                <td>{{productData.prize}}</td>
+                
+                </tr>
+
+			</table>
+
+		</div> 
+		 -->
+		</div>
+
+		<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular.js"></script>
+
+		<script type="text/javascript" src="module/module_app.js"></script>
+		
+		 <script type="text/javascript" src="controller/controller_app.js"></script>
+		 <script type="text/javascript" src="filter/filter_app.js"></script> 
+
+		<!-- <script type="text/javascript" src="provider/provider_app.js"></script>
+
+		<script type="text/javascript" src="value/value_app.js"></script>
+
+		<script type="text/javascript" src="constant/constant_app.js"></script>
+
+		<script type="text/javascript" src="factory/factory_app.js"></script>
+ 
+      <script type="text/javascript" src="services/service_app.js"></script>
+  -->
+      
+
+      
+		
+
+		<script type="text/javascript" src="filter/filter_app.js"></script> 
+		
+		</body>
+
+</html>
